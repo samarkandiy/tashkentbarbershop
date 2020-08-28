@@ -422,11 +422,10 @@
 .address-title {
     text-align: center;
     margin-top: 60px;
-    color: #000000;
-    font-family: "Bitter", Sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    font-style: italic;
+    color: #fff;
+    font-family: "Oswald", Sans-serif;
+    font-size: 25px;
+    font-weight: 900;
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
