@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=Merriweather:wght@300;400&family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
 </head>
 <body>
     <header id="header">
         <div class="menu">
-            <img src="img/tashkentbarbershop.svg" alt="" class="menu-img">
+            <img src="img/tashkentbarbershop.svg" alt="" class="menu-img" data-aos-duration="1000" data-aos="flip-left">
             <nav role="navigation">
                 <div class="menu-list">
-                    <ul class="menu">
+                    <ul class="menu" data-aos-delay="200" data-aos-duration="1000" data-aos="fade-right">
                     <li><a class="menu-lists" href="/">home</a></li>
                     <li><a class="menu-lists" href="/about-us/index.html">about us</a></li>
                     <li><a class="menu-lists" href="/our-services/index.html">services</a></li>
@@ -24,7 +25,11 @@
                 </div>
             </nav>
         </div>
-        <div class="header-title">
+        <div class="header-title" 
+        data-aos-delay="300"
+        data-aos-duration="1200"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
             <h4 class="header-description">welcome to</h4>
             <h2 class="header-main-title">Tashkent Barbershop</h2>
             <button class="header-button"><a class="header-button-link" href="our-services/index.html"> how we do it</a></button>
@@ -67,6 +72,7 @@
             </div>
         </div>
     </footer>
-    <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/aos.js"></script>
 </body>
 </html>

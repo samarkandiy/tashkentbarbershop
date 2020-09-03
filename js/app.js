@@ -1,4 +1,5 @@
-$(function () {   $('.menu-btn').on('click', function(){
-    $('.menu-list').slideToggle();
-});
-});
+// $(function () {   $('.menu-btn').on('click', function(){
+//     $('.menu-list').slideToggle();
+// });
+// });
+AOS.init();
