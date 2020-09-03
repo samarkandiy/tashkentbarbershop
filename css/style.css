@@ -48,7 +48,7 @@
 
 .menu-img {
     width: 100px;
-    height: 120px;
+    height: 100px;
 }
 
 .menu-lists {
@@ -109,16 +109,10 @@
 .header-button-link:hover{
     color:#000000;
 }
-
-/* introducing */
-.introducing {
-    margin-top: 70px;
-    margin-bottom: 70px;
-}
-
+/* INTRODUCTION */
 .introduction {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 32px;
     color: #000000;
     font-family: "Bitter", Sans-serif;
     font-size: 15px;
@@ -532,4 +526,21 @@
     margin-bottom: 30px;
     padding: 12px 24px;
 }
-/* services-page */
+@media (max-width: 600px) { .menu-btn {
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+}
+
+.menu-btn span {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #fff;
+    height: 4px;
+}
+.menu-lists{
+    display: none;
+} }
