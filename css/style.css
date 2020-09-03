@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 #header {
-    background-image: url(../img/bg-img.jpg);
+    background-image: url(../img/home-top.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +18,15 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 50vh;
+}
+
+#services{
+    background-image: url(../img/services.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh; 
 }
 
 #contact-us {
@@ -25,8 +34,9 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 50vh;
 }
+
 
 .menu {
     display: flex;
@@ -86,9 +96,18 @@
     transition: all 0.5s;
 }
 
+.header-button-link {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
 .header-button:hover {
     color: #000000;
     background-color: #fff;
+}
+.header-button-link:hover{
+    color:#000000;
 }
 
 /* introducing */
@@ -514,10 +533,3 @@
     padding: 12px 24px;
 }
 /* services-page */
-#services{
-    background-image: url(../img/pexels-nick-demou-1319459.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh; 
-}
